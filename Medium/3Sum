@@ -1,4 +1,4 @@
-class Solution {
+class Main {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> list = new ArrayList<>();
