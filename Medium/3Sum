@@ -1,8 +1,4 @@
-
-class Main {
-
-
-
+class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> list = new ArrayList<>();
@@ -11,10 +7,7 @@ class Main {
                 twoSumHelper(nums, i, list);
             }
         }
-
-        return list1;
-
-       
+        return list;
     }
     private void twoSumHelper(int[] nums, int i, List<List<Integer>> list) {
         int low = i + 1;
